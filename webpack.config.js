@@ -6,7 +6,7 @@ import { VueLoaderPlugin } from 'vue-loader';
 
 let mode = 'development';
 if(process.env.NODE_ENV === 'production') {
-  mode = 'production'
+  mode = 'production';
 };
 
 const plugins = [
